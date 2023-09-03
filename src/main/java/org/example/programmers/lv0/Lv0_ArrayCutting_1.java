@@ -1,9 +1,9 @@
-package org.example.programmers.lv1;
+package org.example.programmers.lv0;
 
 import java.util.Arrays;
 import java.util.stream.IntStream;
 
-public class Lv1_ArrayCutting_1 {
+public class Lv0_ArrayCutting_1 {
 
     public int[] solution(int[] numbers, int num1, int num2) {
         int size = num2-num1+1;
@@ -22,7 +22,7 @@ public class Lv1_ArrayCutting_1 {
     }
 
     public static void main(String[] args) {
-        Lv1_ArrayCutting_1 l = new Lv1_ArrayCutting_1();
+        Lv0_ArrayCutting_1 l = new Lv0_ArrayCutting_1();
         int[] array = l.solution(new int[] {1, 2, 3, 4, 5}, 1, 3);
 
         System.out.println("Use System Array Copy");

@@ -1,11 +1,11 @@
-package org.example.programmers.lv1;
+package org.example.programmers.lv0;
 
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Lv1_NumberParseSpring_1 {
+public class Lv0_NumberParseSpring_1 {
 
     public String solution(int age) {
         String answer = "";
@@ -23,7 +23,7 @@ public class Lv1_NumberParseSpring_1 {
     }
 
     public static void main(String[] args) {
-        Lv1_NumberParseSpring_1 l = new Lv1_NumberParseSpring_1();
+        Lv0_NumberParseSpring_1 l = new Lv0_NumberParseSpring_1();
         String numStr = l.solution(23);
         System.out.println(numStr);
 
